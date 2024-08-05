@@ -260,6 +260,12 @@ img{
     background-repeat: no-repeat;
     background-position: 90% center;
     background-size: 15rem;
+    transition-property: transform;
+    transition-duration: 300ms;
+}
+
+.modelo:hover{
+    transform: scale(1.1);
 }
 
 @media (min-width:992px){
